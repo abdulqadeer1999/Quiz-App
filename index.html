@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-image: url(question.jpg)
+        }
+    
+    h1{
+
+        text-align: center;
+        color: yellow;
+    }
+
+     
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>General Quiz Application</h1>
+        <fieldset class="field">
+        <p>What is full form of CPU?</p><br>
+        <input id="ques1" name="es" type="radio" class = "rd">Central Point Unit</input><br>
+        <input id="option1" type="radio" class = "rd" name="es">Central Processing Unit</input><br>
+        <input id="option2" name="es" type="radio" class = "rd">Central Position Unit</input><br>
+        <input id="option3" name="es" type="radio" class = "rd">None</input><br>
+    </fieldset>
+    </div>
+    <br>
+    <div>
+        <fieldset class="field">
+        <p>What is HTML?</p><br>
+        <input id="ques2" name="esp" type="radio" class = "rd">Markup language</input><br>
+        <input id="opt1" name="esp" type="radio"  class = "rd" >Script language</input><br>
+        <input id="opt2" name="esp" type="radio" class = "rd">Programing language</input><br>
+        <input id="opt3" name="esp" type="radio" class = "rd">None</input><br>
+    </fieldset>
+    </div>
+    <br>
+    <div>
+        <fieldset class="field">
+        <p>What is the name of pakistan president?</p><br>
+        <input id="para" name="ep" type="radio" class = "rd">Arif Alvi</input><br>
+        <input id="ans1" type="radio" class = "rd" name="ep">Imran khan</input><br>
+        <input id="ans2" name="ep" type="radio" class = "rd">Bilawal</input><br>
+        <input id="ans3" name="ep" type="radio" class = "rd">None</input><br>
+    </fieldset>
+    </div>
+    <br>
+    <button id="result" onclick="check()">Submit</button>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
